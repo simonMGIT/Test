@@ -3,7 +3,7 @@
 <?php echo form_open("login/user_login",['class'=>'form-horizontal']);?>
 
   <fieldset>
-    <legend>Login</legend>
+    <legend>Logi</legend>
     <?php if($error = $this->session->flashdata('login_response')):?>
    
     <div class="row">
